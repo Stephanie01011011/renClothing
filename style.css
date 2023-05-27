@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    display: grid;
+    grid-template-columns: 20vw 20vw 20vw 20vw 20vw;
+    grid-template-rows: 12.5vh 12.5vh 12.5vh 12.5vh 12.5vh 12.5vh 12.5vh 12.5vh;
+}
+.navigation{
+background-color: white;
+grid-column-start: 1;
+grid-column-end: 6;
+grid-row-start: 1;
+grid-row-end: 2;
+display: flex;
+}
+.side{
+    background-color: white;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 8;
+}
+.main{
+    background-color: rgb(253, 248, 239);
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 8;
+    display: flex;
+}
+.footer{
+    background-color: rgb(28, 28, 28);
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 8;
+    grid-row-end: 9;
+}
+.logo{
+    margin-left: 50px;
+    background-image: url(Images/brand/RenLogo.png);
+    width: 20%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.navBtns li{
+    display: inline;
+    margin: 40px;
+    
+    
+}
+.navBtns a{
+    text-decoration: none;
+    color: rgb(67, 65, 65);
+}
+.nav{
+    margin-top: 50px;
+}
+.formContainer{
+    width: 50%;
+    height: 90%;
+    background-color: white;
+    margin: auto;
+    position: relative;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+form label{
+    margin-left: 4%;
+    margin-top: 4%;
+}
+form select{
+    width: fit-content;
+    margin-left: 7%;
+    margin-top: 4%;
+}
+form input{
+    width: 300px;
+    margin-left: 7%;
+    margin-top: 4%;
+}
+form button{
+    width: 80px;
+    height: 30px;
+    margin-left: 40%;
+    margin-top: 2%;
+    background-color: rgb(40, 40, 40);
+    color: white;
+    border: none;
+}
+textarea{
+    width: 85%;
+    height: 100px;
+    margin: auto;
+    margin-top: 2%;
+}
+form p{
+    margin: auto;
+    margin-top: 2%;
+    font-size: 20px;
+    text-decoration: underline;
+}
