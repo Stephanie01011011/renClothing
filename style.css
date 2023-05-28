@@ -33,6 +33,7 @@ display: flex;
     grid-column-end: 6;
     grid-row-start: 8;
     grid-row-end: 9;
+    display: flex;
 }
 .logo{
     margin-left: 50px;
@@ -101,4 +102,32 @@ form p{
     margin-top: 2%;
     font-size: 20px;
     text-decoration: underline;
+}
+.links{
+    margin: auto;
+    width: 33%;
+}
+.links li{
+    display: inline;
+    margin: 5%;
+    
+}
+.links a{
+    color: white;
+    
+}
+.social {
+    width: 33%;
+    margin: auto;
+    margin-left: 3%;
+}
+.bottomLogo{
+
+    margin: auto;
+    margin-left: 25%;
+    background-image: url(Images/brand/RenLogo.png);
+    width: 10%;
+    height: 80%;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
